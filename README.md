@@ -1,9 +1,7 @@
 # Fully-Automated Cartilage and Meniscus Segmentation for Knee MRI
 Fully-automated segmentation of MSK tissues from MRI data.
 
-This code is primarily designed to segment cartilage and meniscus from 3D DESS scans from the OAI. 
-
-The model weights for this network are rather large (400MB) but they can be found by emailing akshaysc at stanford dot edu.
+This code is primarily designed to segment cartilage and meniscus from 3D DESS scans from the OAI. The model weights for this network are rather large (400MB) but they can be found by emailing akshaysc at stanford dot edu.
 
 Here are some results from 14 subjects tested from the OAI iMorphics cohort:
 
