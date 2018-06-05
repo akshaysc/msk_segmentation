@@ -1,0 +1,8 @@
+# Ignore all pycachse files
+*.pyc
+
+# Ignore all result files
+*./results/
+
+# Ignore init file
+__init__.py
