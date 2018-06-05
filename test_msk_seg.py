@@ -10,13 +10,6 @@ import h5py
 import time
 import os
 import tensorflow as tf
-
-from keras.models import Model
-from keras.layers import Input, Conv3D, MaxPooling3D, concatenate, add, Lambda, Dropout
-from keras.layers import BatchNormalization as BN
-from keras_contrib.layers.convolutional import Deconvolution3D
-from keras import losses
-from keras.optimizers import Adam
 from keras import backend as K
 
 from utils.generator_msk_seg import calc_generator_info, img_generator_oai

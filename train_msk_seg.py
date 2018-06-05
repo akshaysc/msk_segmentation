@@ -7,15 +7,10 @@ from __future__ import print_function, division
 
 import numpy as np
 import pickle
-import json
 import math
 import os
 
-from keras.models import Model, Sequential
-from keras.layers import Input, Conv2D, MaxPooling2D, Conv2DTranspose, concatenate, add, Lambda, Dropout, AlphaDropout
-from keras.layers import BatchNormalization as BN
 from keras.optimizers import Adam
-from keras.utils import plot_model
 from keras import backend as K
 import keras.callbacks as kc  
 
